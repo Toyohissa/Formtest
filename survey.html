@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="popup">
+        <h2>Thank you for the application</h2>
+        <button type='submit' class="sub">Ok</button>
+    </div>
+    <h1 class="welc">Welcome to Fezenzag'n Survey</h1>
+    <form id="Form">
+        <div class="Forminfo">
+        <label for="name">
+            Name
+        </label>
+        <input type="text" placeholder="Enter your name" class="input">  
+        </div>
+        <div class="Forminfo">
+            <label for="E-Mail">E-Mail</label> 
+            <input type="text" placeholder="Enter your E-mail" class="input">  
+        </div>
+        <div class="Forminfo">
+            <label for="Age">Enter you age</label>
+            <input type="text" placeholder="Age" class="input">  
+        </div>
+        <div class="Forminfo">
+            <label for="Occupation">What's your main hustle</label>
+            <select name="Occupation" id="Occup">What's you main Hustle
+                <option class="opt" value="Student">Student</option>
+                <option class="opt" value="Web Dev">Web Dev</option>
+                <option class="opt" value="Ball scratch">Ball scratching</option>
+                <option class = "opt" value="Other">Other</option>
+            </select>
+        </div>
+        <div class="Forminfo" id="tesl"> 
+            <label for="">Is Fezenzag'n the Tesl?</label>
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Maybe</input>
+            </label>
+        </div>
+        <div class="Forminfo">
+            <label for="">Skills</label>
+            <label for="1">
+                <input type="checkbox" name="inp">C++
+            </label>
+            <label for="1">
+                <input type="checkbox" name="inp">C#
+            </label>
+            <label for="1">
+                <input type="checkbox" name="inp">JS
+            </label>
+            <label for="1">
+                <input type="checkbox" name="inp">Python
+            </label>
+            <label for="1">
+                <input type="checkbox" name="inp">PHP
+            </label>
+            <label for="1">
+                <input type="checkbox" name="inp">Node.js
+            </label>
+        </div>
+        <div class="Forminfo">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+        <button type="button" value="submit" id="button">
+            Submit
+        </button>
+    </form>
+    <script src="survey.js"></script>
+</body>
+</html>

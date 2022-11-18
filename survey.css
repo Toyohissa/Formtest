@@ -1,0 +1,115 @@
+body{
+    display: block;
+    background-image: url(Galaxy.jpg);
+}
+.welc{
+    box-shadow: 5px 5px black;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(174, 204, 233);
+    width: 700px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    text-shadow: 2px 2px rgb(51, 95, 136);
+    margin-bottom: 50px;
+}
+.welc:hover{
+    color: white;
+    background-color: black;
+    box-shadow: none;
+    transform: scale(1.1);
+    text-shadow: none;
+}
+#Form{
+    width: 500px;
+    top: 50px;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgb(52, 50, 50);
+    background-color:rgb(174, 204, 233);
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+#Form:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+.Forminfo{
+    padding: 5px;
+}
+.Forminfo label{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+.input{
+    width: 500px;
+    border-radius: 7px;
+    box-shadow: 2px 2px rgb(18, 7, 56);
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#Occup{
+    width: 509px;
+    height: 25px;
+    border-radius: 7px;
+    box-shadow: 2px 2px rgb(18, 7, 56);
+    transition: all .5s ease-in-out;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+#Occup:hover{
+    transform: scale(1.1);
+}
+
+#comment{
+    width: 500px;
+    height: 80px;
+    border-radius: 7px;
+}
+button{
+    border-radius: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(103, 171, 234);
+    cursor: pointer;
+    box-shadow: 2px 2px rgb(18, 7, 56);
+    transition: all .3s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+.popup{
+    background-color: aliceblue;
+    text-align: center;
+    width: fit-content;
+    padding: 15px 80px;
+    border-radius: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all .5s ease-in-out;
+    text-shadow: 1px 1px rgb(112, 110, 110);
+    box-shadow: 3px 3px black;
+    position: relative;
+    margin-left: 35%;
+    right: 60px;
+    top: 400px;
+    opacity: 0;
+    z-index: 0;
+}
+
+.popup:hover{
+    background-color: black;
+    color: aliceblue;
+    transform: scale(1.1);
+}
+.popup:hover .sub{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+
